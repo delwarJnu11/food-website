@@ -5,7 +5,7 @@
 }
 
 nav.main-menu {
-    background-color: hotpink;
+    background-color: rgb(247 98 30);
 }
 
 .container{
@@ -16,7 +16,11 @@ nav.main-menu {
 }
 
 .logo-area {
-    width: 10%;
+    width: 8%;
+}
+
+img.logo-img {
+    max-width: 100%;
 }
 
 .menu-area {
@@ -39,13 +43,6 @@ a.nav-item {
     font-weight: 500;
 }
 
-h1.logo {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    line-height: 67px;
-}
-
 .content-area {
     margin-top: 130px;
     width: 40%;
@@ -59,7 +56,7 @@ h1.title {
 }
 
 span.colorful-text {
-    color: chocolate;
+    color: rgb(247 98 30);
 }
 
 p.description {
@@ -72,7 +69,7 @@ p.description {
 a.link-button {
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(chocolate, orange);
+    background-image: linear-gradient(to left, chocolate, orange);
     padding: 10px 20px;
     display: inline-block;
     border-radius: 10px;
@@ -113,7 +110,7 @@ h1.about-title {
     margin: 2%;
     border-radius: 5%;
     padding: 2%;
-    box-shadow: 10px 10px 20px #e4dede;
+    box-shadow: 10px 10px 20px 5px #e4dede;
 }
 
 .recipie-img {
@@ -159,7 +156,7 @@ img.author-img {
     max-width: 60%;
     border-radius: 50%;
     border: 2px solid white;
-    box-shadow: 5px 5px 10px #bfb9b9;
+    box-shadow: 5px 5px 10px 5px #bfb9b9;
 }
 
 h3.author-name {
@@ -178,7 +175,7 @@ h3.author-name {
     margin: 5% 0;
     border: 1px solid #e6e0e0;
     border-radius: 10px;
-    box-shadow: 10px 10px 30px #ada8a8;
+    box-shadow: 5px 5px 20px 5px #ada8a8;
 }
 
 .testimonial-item {
@@ -190,7 +187,7 @@ h3.author-name {
     border: 1px solid #d8d8d8;
     border-radius: 10px;
     margin-top:100px;
-    box-shadow: 10px 10px 40px 5px #ada8a8;
+    box-shadow: 5px 5px 20px 5px #ada8a8;
 }
 
 .social-followers {
