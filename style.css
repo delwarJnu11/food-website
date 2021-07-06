@@ -131,17 +131,56 @@ p.recipie-description {
     font-weight: 100;
 }
 
-h1.recipie-title {
+h1.recipie-title, .testimonial-title {
     text-align: center;
     font-size: 40px;
     margin: 2% 0;
 }
 
-p.recipie-title-description {
+p.recipie-title-description, .testimonial-description {
     width: 37%;
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
     font-weight: 100;
     line-height: 25px;
+}
+
+.author-details {
+    width: 25%;
+    position: absolute;
+    top: 67%;
+    right: 35%;
+    transform: translateX(50%);
+}
+
+img.author-img {
+    max-width: 60%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px #bfb9b9;
+}
+
+h3.author-name {
+    font-size: 22px;
+    padding: 2%;
+    margin: 3% 0%;
+    text-align: center;
+    color: chocolate;
+}
+
+.customer-quote {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 10%;
+    margin: 5% 0;
+    border: 1px solid #e6e0e0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #ada8a8;
+}
+
+.testimonial-item {
+    padding: 2%;
+    position: relative;
 }
