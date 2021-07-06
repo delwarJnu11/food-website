@@ -12,6 +12,7 @@ nav.main-menu {
     display: flex;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 .logo-area {
@@ -184,3 +185,53 @@ h3.author-name {
     padding: 2%;
     position: relative;
 }
+
+.follwers{
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    margin-top:100px;
+    box-shadow: 10px 10px 40px 5px #ada8a8;
+}
+
+.social-followers {
+    display: flex;
+    width: 75%;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.youtube-followers {
+    margin: 20px 80px;
+    text-align: center;
+}
+
+h1.followers-amount {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 6% 0px;
+}
+
+span.social-media-name {
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0 2px;
+}
+
+footer.footer-area {
+    background-color: #3a3535;
+    text-align: center;
+    padding: 3% 0;
+    color: wheat;
+}
+
+h1.footer-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.footer-description {
+    color: #dcd5d5;
+    font-weight: 300;
+    font-size: 15px;
+}
+
