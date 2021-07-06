@@ -4,15 +4,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav.main-menu {
-    background-color: rgb(247 98 30);
-}
-
 .container{
     display: flex;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 80px;
+}
+
+/*NAV START HERE*/
+
+nav.main-menu {
+    background-color: rgb(247 98 30);
 }
 
 .logo-area {
@@ -42,6 +44,8 @@ a.nav-item {
     font-size: 18px;
     font-weight: 500;
 }
+
+/*DIET AREA START HERE*/
 
 .content-area {
     margin-top: 130px;
@@ -85,10 +89,12 @@ img.image {
     max-width: 90%;
 }
 
+/*ABOUT ME START HERE*/
+
 .about-me{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding: 2%;
 }
 
@@ -104,6 +110,8 @@ h1.about-title {
 .about-link-btn {
     margin-top: 40px !important;
 }
+
+/*MY RECIPIE START HERE*/
 
 .recipie-item {
     width: 30%;
@@ -144,6 +152,8 @@ p.recipie-title-description, .testimonial-description {
     line-height: 25px;
 }
 
+/*TESTIMONIAL START HERE*/
+
 .author-details {
     width: 25%;
     position: absolute;
@@ -183,6 +193,8 @@ h3.author-name {
     position: relative;
 }
 
+/*SOCIAL SUBSCRIBER START HERE*/
+
 .follwers{
     border: 1px solid #d8d8d8;
     border-radius: 10px;
@@ -197,7 +209,7 @@ h3.author-name {
     padding: 30px;
 }
 
-.youtube-followers {
+.specific-item-followers {
     margin: 20px 80px;
     text-align: center;
 }
@@ -213,6 +225,8 @@ span.social-media-name {
     font-weight: 100;
     padding: 0 2px;
 }
+
+/*FOOTER START HERE*/
 
 footer.footer-area {
     background-color: #3a3535;
